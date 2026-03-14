@@ -1,0 +1,11 @@
+C:\projects\SmartClock\src-tauri\target\release\deps\siphasher-cd0047e18037c8a8.d: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\common.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip128.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\../README.md
+
+C:\projects\SmartClock\src-tauri\target\release\deps\libsiphasher-cd0047e18037c8a8.rlib: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\common.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip128.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\../README.md
+
+C:\projects\SmartClock\src-tauri\target\release\deps\libsiphasher-cd0047e18037c8a8.rmeta: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\common.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip128.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\../README.md
+
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\lib.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\common.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\sip128.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\siphasher-1.0.2\src\../README.md:

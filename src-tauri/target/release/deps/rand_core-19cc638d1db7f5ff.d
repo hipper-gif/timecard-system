@@ -1,0 +1,12 @@
+C:\projects\SmartClock\src-tauri\target\release\deps\rand_core-19cc638d1db7f5ff.d: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\error.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\block.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\impls.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\le.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\os.rs
+
+C:\projects\SmartClock\src-tauri\target\release\deps\librand_core-19cc638d1db7f5ff.rlib: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\error.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\block.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\impls.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\le.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\os.rs
+
+C:\projects\SmartClock\src-tauri\target\release\deps\librand_core-19cc638d1db7f5ff.rmeta: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\error.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\block.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\impls.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\le.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\os.rs
+
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\lib.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\error.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\block.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\impls.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\le.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rand_core-0.5.1\src\os.rs:

@@ -1,0 +1,100 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+model Department {
+  id        String    @id @default(cuid())
+  name      String    @unique
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  users     User[]
+  workRule  WorkRule?
+}
+
+model User {
+  id             String       @id @default(cuid())
+  employeeNumber String       @unique
+  name           String
+  email          String       @unique
+  password       String
+  kioskCode      String?      @unique
+  role           Role         @default(EMPLOYEE)
+  isActive       Boolean      @default(true)
+  departmentId   String?
+  department     Department?  @relation(fields: [departmentId], references: [id], onDelete: SetNull)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  attendances    Attendance[]
+  workRule       WorkRule?
+
+  @@index([departmentId])
+}
+
+enum Role {
+  ADMIN
+  EMPLOYEE
+}
+
+model Attendance {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  clockIn     DateTime
+  clockOut    DateTime?
+  note        String?
+  clockInLat  Float?
+  clockInLng  Float?
+  clockOutLat Float?
+  clockOutLng Float?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  breaks      Break[]
+
+  @@index([userId])
+}
+
+model Break {
+  id           String     @id @default(cuid())
+  attendanceId String
+  attendance   Attendance @relation(fields: [attendanceId], references: [id], onDelete: Cascade)
+  breakStart   DateTime
+  breakEnd     DateTime?
+  latitude     Float?
+  longitude    Float?
+  endLatitude  Float?
+  endLongitude Float?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@index([attendanceId])
+}
+
+enum WorkRuleScope {
+  SYSTEM
+  DEPARTMENT
+  USER
+}
+
+model WorkRule {
+  id                    String        @id @default(cuid())
+  scope                 WorkRuleScope
+  departmentId          String?       @unique
+  department            Department?   @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  userId                String?       @unique
+  user                  User?         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workStartTime         String
+  workEndTime           String
+  defaultBreakMinutes   Int
+  breakTiers            Json?
+  allowMultipleClockIns Boolean       @default(false)
+  roundingUnit          Int           @default(1)    // 丸め単位（分）: 1, 5, 10, 15, 30, 60
+  clockInRounding       String        @default("none") // 出勤丸め: "none", "ceil", "floor"
+  clockOutRounding      String        @default("none") // 退勤丸め: "none", "ceil", "floor"
+  createdAt             DateTime      @default(now())
+  updatedAt             DateTime      @updatedAt
+}

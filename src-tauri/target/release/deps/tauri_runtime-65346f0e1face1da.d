@@ -1,0 +1,11 @@
+C:\projects\SmartClock\src-tauri\target\release\deps\tauri_runtime-65346f0e1face1da.d: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\dpi.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\monitor.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\webview.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\window.rs
+
+C:\projects\SmartClock\src-tauri\target\release\deps\libtauri_runtime-65346f0e1face1da.rlib: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\dpi.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\monitor.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\webview.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\window.rs
+
+C:\projects\SmartClock\src-tauri\target\release\deps\libtauri_runtime-65346f0e1face1da.rmeta: C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\lib.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\dpi.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\monitor.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\webview.rs C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\window.rs
+
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\lib.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\dpi.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\monitor.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\webview.rs:
+C:\Users\nikon\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-runtime-2.10.1\src\window.rs:

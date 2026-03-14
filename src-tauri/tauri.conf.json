@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/dev/crates/tauri-config-schema/schema.json",
+  "productName": "SmartClock",
+  "version": "1.0.0",
+  "identifier": "jp.twinklemark.smartclock.kiosk",
+  "build": {
+    "frontendDist": "http://localhost:3010/kiosk"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "title": "SmartClock",
+        "url": "/",
+        "width": 420,
+        "height": 700,
+        "minWidth": 360,
+        "minHeight": 600,
+        "resizable": true,
+        "maximized": false,
+        "fullscreen": false,
+        "decorations": true,
+        "alwaysOnTop": true,
+        "center": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "perMachine",
+        "languages": ["Japanese"]
+      }
+    }
+  },
+  "plugins": {
+    "autostart": {
+      "macosExtraArgs": [],
+      "args": []
+    }
+  }
+}

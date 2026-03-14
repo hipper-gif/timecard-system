@@ -1,0 +1,17 @@
+{
+  "name": "SmartClock - 勤怠管理",
+  "short_name": "SmartClock",
+  "description": "シンプルな勤怠管理システム",
+  "start_url": "/clock",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
